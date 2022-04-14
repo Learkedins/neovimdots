@@ -6,7 +6,7 @@ sleep 5 &
 mv ~/.config/nvim ~/.config/nvim.bck;
 
 sleep 10 &
-git clone https://github.com/FesaGemini/AtLas-vim.git ~/.config/nvim;
+https://github.com/Learkedins/neovimdots.git ~/.config/nvim;
 
 sleep 5 &
 nvim +'hi NormalFloat guibg=#1e222a' +PackerSync;
